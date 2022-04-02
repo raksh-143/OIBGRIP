@@ -1,0 +1,29 @@
+.root{
+-fx-font-family:"Chalkduster";
+-fx-alignment: center ;
+-fx-background-color: #29294a;
+}
+VBox{
+-fx-font-weight:bolder;
+-fx-alignment: center ;
+-fx-spacing:10;
+}
+TextField{
+-fx-max-width:400;
+-fx-alignment: center ;
+-fx-font-size:16;
+}
+Label{
+-fx-font-size:18;
+-fx-text-fill:#1EEBBB;
+}
+Button{
+-fx-font-size:18;
+-fx-background-color:pink;
+-fx-text-fill:crimson;
+}
+Button:hover{
+-fx-font-size:18;
+-fx-background-color:crimson;
+-fx-text-fill:pink;
+}
